@@ -1,9 +1,12 @@
-ok so basically this is a fun toy project i wanted to share
+ok so basically this is a fun toy project
 watched interesting vid on radix sort and wanted to impl it, so I did.
 Started with C then thought to make it in convoluted cpp for fun
 basic_radix.cpp (main) is entirely AI generated but the other files are completely off the dome
 
-only did 4 bit lsd radix sort for simplicty, my revisit later with variable bit and MSD sort, or with optimisation to my algs.
+Only did 4 bit lsd radix sort for simplicty, my revisit later with variable bit and MSD sort, or with optimisation to my algs.
+
+Another thing to note is that I did this all in VS so these are MSVC scores.
+
 # Debug mode score on my machine (100 mil elems):
 
 it  1 | c  516.898 | cpp 2929.856 | f1  308.329 | f2  868.756 | f3  273.340 | std 8152.978 | ok true
